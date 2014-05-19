@@ -11,9 +11,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * Created by Egbert Dijkstra on 12-4-2014.
- */
 public class DatabaseHelper extends SQLiteOpenHelper {
     
     private static final String LOG = "DatabaseHelper";
