@@ -23,8 +23,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String KEY_ID = "id";
     private static final String KEY_SCORE = "score";
     private static final String CREATE_TABLE_SCORE = "CREATE TABLE " + TABLE_SCORE 
-												   + "(" + KEY_ID + " INTEGER PRIMARY KEY," 
-												   + KEY_SCORE + " INTEGER)";
+						   + "(" + KEY_ID + " INTEGER PRIMARY KEY," 
+						   + KEY_SCORE + " INTEGER)";
 												   
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
